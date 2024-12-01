@@ -1,0 +1,222 @@
+.App {
+  text-align: center;
+}
+
+/* .App-logo {
+  margin: 20px;
+  height: 10vmin;
+  pointer-events: none;
+} */
+
+.App-logo {
+  background-color: #2292fe; /* Light blue background */
+  color: #ffffff;            /* Darker text color for contrast */
+  display: inline-block;
+  padding: 19.5px 29.25px;   /* Increased padding for a larger bubble (1.3x) */
+  border-radius: 39px;       /* Larger rounded corners (1.3x) */
+  font-size: 31.2px;         /* Increased font size (1.3x) */
+  box-shadow: 0 7.8px 15.6px rgba(0, 0, 0, 0.3); /* Adjusted shadow for depth (1.3x) */
+  max-width: 85%;            /* Keep maximum width the same */
+  word-wrap: break-word;     /* Wrap text within bubble */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-jiggle 1.5s infinite ease-in-out;
+  }
+}
+
+@keyframes App-logo-jiggle {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0, -2.5px); /* Move up */
+  }
+  50% {
+    transform: translate(0, 2.5px);  /* Move down */
+  }
+  75% {
+    transform: translate(0, -2.5px); /* Move up again */
+  }
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-jiggle {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(0, -2.5px); /* Move up */
+  }
+  50% {
+    transform: translate(0, 2.5px);  /* Move down */
+  }
+  75% {
+    transform: translate(0, -2.5px); /* Move up again */
+  }
+}
+
+.App-button {
+  background-color: #ffffff;        /* iMessage blue */
+  color: #2292fe;                   /* Text color */
+  font-size: 19.2px;                /* Font size (16px * 1.2) */
+  font-weight: bold;
+  padding: 14.4px 24px;             /* Padding for size (12px/20px * 1.2) */
+  border: none;                     /* No border */
+  border-radius: 30px;              /* Rounded corners (25px * 1.2) */
+  cursor: pointer;                  /* Pointer on hover */
+  text-align: center;               /* Center text */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  margin: 15px;                     /* Add margin around the button */
+}
+
+/* Hover effect */
+.App-button:hover {
+  background-color: #e9e9eb;
+  transform: scale(1.1);
+}
+
+.App-button-container {
+  display: flex;              /* Enable flexbox */
+  justify-content: center;    /* Center the buttons horizontally (optional) */
+  align-items: center;        /* Center the buttons vertically (optional) */
+}
+
+.App-sender-button {
+  background-color: #2292fe;        /* iMessage blue */
+  color: black;                   /* Text color */
+  font-size: 19.2px;                /* Font size (16px * 1.2) */
+  font-weight: bold;
+  padding: 14.4px 24px;             /* Padding for size (12px/20px * 1.2) */
+  border: none;                     /* No border */
+  border-radius: 30px;              /* Rounded corners (25px * 1.2) */
+  cursor: pointer;                  /* Pointer on hover */
+  text-align: center;               /* Center text */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  margin: 15px;                     /* Add margin around the button */
+}
+
+/* Hover effect */
+.App-sender-button:hover {
+  background-color: #e9e9eb;
+  transform: scale(1.1);
+}
+
+p {
+  color: black
+}
+
+.App-score {
+  color: black
+}
+
+.App-text {
+  color: black
+}
+
+.App-text-message {
+  background-color: #2292fe; /* Light blue background */
+  color: #ffffff;          /* Darker text color for contrast */
+  display: inline-block;
+  padding: 15px 22.5px;    /* Increased padding for a larger bubble */
+  border-radius: 30px;     /* Larger rounded corners */
+  font-size: 24px;         /* Increased font size */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Adjusted shadow for depth */
+  max-width: 85%;          /* Adjusted maximum width */
+  word-wrap: break-word;   /* Wrap text within bubble */
+}
+
+.input-container {
+  display: flex;
+  justify-content: center; /* Center the input container */
+  margin: 10px;           /* Add margin around the input */
+}
+
+.input-container {
+  display: flex;                 /* Use flexbox for layout */
+  flex-direction: column;        /* Arrange children in a column */
+  align-items: flex-end;         /* Align items to the right */
+  width: 100%;                   /* Full width of the parent */
+  margin: 0;
+}
+
+.App-input-label-text {
+  background-color: #e9e9eb; /* Light blue background */
+  color: #000000;            /* Darker text color for contrast */
+  display: inline-block;      /* Keep it inline */
+  padding: 15px 22.5px;      /* Increased padding for a larger bubble */
+  border-radius: 30px;       /* Larger rounded corners */
+  font-size: 16px;           /* Increased font size */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Adjusted shadow for depth */
+  max-width: 85%;            /* Adjusted maximum width */
+  word-wrap: break-word;     /* Wrap text within bubble */
+  margin-bottom: 10px;       /* Space between label and input */
+  margin-right: auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-input-label-text {
+    animation: App-logo-jiggle 1.5s infinite ease-in-out;
+  }
+}
+
+.imessage-input {
+  background-color: #2292fe; /* Light blue background */
+  color: #000;               /* Dark text color for contrast */
+  border: 1px solid #d1d1d1; /* Light border color */
+  border-radius: 25px;       /* Rounded corners */
+  padding: 12px 20px;        /* Padding for input */
+  font-size: 16px;           /* Font size */
+  font-weight: bold;
+  width: 50%;               /* Full width */
+  max-width: 400px;          /* Limit maximum width */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+  margin-left: auto;
+}
+
+/* Focus state for the input */
+.imessage-input:focus {
+  outline: none;                           /* Remove default outline */
+  border-color: #2292fe;                  /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(34, 146, 254, 0.5); /* Glow effect on focus */
+}
+
+/* Placeholder styling */
+.imessage-input::placeholder {
+  color: #A3C6E7;                            /* Gray color for placeholder text */
+  opacity: 1;                             /* Make sure placeholder is visible */
+  font-weight: normal;
+}
+
+.App-game-over-text {
+  color: black;
+  font-weight: bold;
+}
+
+.App-score-value {
+  color: black;
+  font-weight: bold;
+}
+
+.App-gwstt-label-text {
+  color: black;
+  font-size: 28px;
+}
