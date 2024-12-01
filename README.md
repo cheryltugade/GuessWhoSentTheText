@@ -7,7 +7,7 @@ This game fetches 20 random iMessage texts between you and a given phone number/
 
 This game is most fun when played together with the person you have texted with!
 
-## Instructions ##
+## Instructions (takes <5 mins to set up) ##
 1. Click on the green 'Code' button on the top right and then click 'Download ZIP' in the dropdown.
 <img width="934" alt="Screenshot 2024-11-30 at 11 02 55 PM" src="https://github.com/user-attachments/assets/ae8e3df6-5a29-4b09-a9a0-8214178b0612">
 
